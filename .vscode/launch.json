@@ -1,0 +1,44 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Attach to Remote Program",
+      "request": "attach",
+      "hostName": "<The host name or ip address of remote debuggee>",
+      "port": "<debug port of remote debuggee>"
+    },
+    {
+      "type": "java",
+      "name": "Attach to Remote Program",
+      "request": "attach",
+      "hostName": "<The host name or ip address of remote debuggee>",
+      "port": "<debug port of remote debuggee>"
+    },
+    {
+      "type": "java",
+      "name": "Attach to Remote Program",
+      "request": "attach",
+      "hostName": "<The host name or ip address of remote debuggee>",
+      "port": "<debug port of remote debuggee>"
+    },
+    {
+      "type": "java",
+      "name": "Attach to TaskTwoTests (Kafka Debug)",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MidasCoreApplication<midas-core>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.jpmc.midascore.MidasCoreApplication",
+      "projectName": "midas-core",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
