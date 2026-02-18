@@ -79,15 +79,14 @@ Returns 0 if user does not exist
         +--------------------------+
 
 ## 🛠 Tech Stack
-
-Java 17,
-Spring Boot 3,
-Spring Kafka,
-Spring Data JPA,
-H2 In-Memory Database,
-RestTemplate,
-Maven,
-Embedded Kafka (Testing).
+- Java 17,
+- Spring Boot 3,
+- Spring Kafka,
+- Spring Data JPA,
+- H2 In-Memory Database,
+- RestTemplate,
+- Maven,
+- Embedded Kafka (Testing).
 
 ## 📦 Project Structure
 src/
